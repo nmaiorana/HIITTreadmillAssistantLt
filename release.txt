@@ -1,0 +1,37 @@
+04/28/2012 version 2.6, version code 22
+	- Fixing issues with Music
+	- Bringing code up to date with Android 4.2.2
+	
+04/27/2012 version 2.4, version code 9
+	- Added permission for READ_EXTERNAL_STORAGE
+
+09/19/2012 version 2.3, version code 8
+	- Corrected Music Integration Issues
+	- Corrected Timer Issue
+	
+09/16/2012 version 2.2, version code 7
+	- Corrected NullPointerException
+	- Updated TextToSpeech usage
+	
+01/16/2012 version 2.1, version code 6
+	- Attempt to resolve null pointer exception in HIITSession where workoutInterval was not set when activity started.
+	
+01/16/2012 version 2.0, version code 5
+	- Issue with android marketing library
+
+01/16/2012 version 2.0, version code 4
+	- Removed Facebook Integration
+	- Added Warm Up Options
+	- Added Cool Down Options
+	- Added More Interval Times (in Full Version)
+	- Removed Pre-Configured Workouts
+	- Changed UI
+	- Limited to 4-6 Intervals
+	- Limited to 30/60 Second Intervals (left out 90-120)
+11/26/2010 version 1.0.2, version code 3
+	- Image Modifications
+	- Moved licensing check to after facebook setup
+11/15/2010 version 1.0.1, version code 2
+	- Bug fix
+11/13/2010 version 1.0.0, version code 1
+	- Initial Release

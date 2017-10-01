@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+		Copyright (C) 2007 The Android Open Source Project Licensed under the
+		Apache License, Version 2.0 (the "License"); you may not use this file
+		except in compliance with the License. You may obtain a copy of the
+		License at http://www.apache.org/licenses/LICENSE-2.0 Unless required
+		by applicable law or agreed to in writing, software distributed under
+		the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+		CONDITIONS OF ANY KIND, either express or implied. See the License for
+		the specific language governing permissions and limitations under the
+		License.
+-->
+
+<resources>
+
+    <!-- Used in View/UserConfiguration.java -->
+    <string-array name="numberOfIntervals">
+        <item>4 Intervals</item>
+        <item>5 Intervals</item>
+        <item>6 Intervals</item>
+    </string-array>
+
+    <integer-array name="numberOfIntervalsValue">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </integer-array>
+    
+        <string-array name="sprint_interval_times">
+        <item>30 Second Sprint</item>
+        <item>60 Second Sprint</item>
+    </string-array>
+
+    <integer-array name="sprint_interval_times_value">
+        <item>30</item>
+        <item>60</item>
+    </integer-array>
+
+</resources>

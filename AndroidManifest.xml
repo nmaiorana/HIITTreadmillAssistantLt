@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.svi.hiitalt"
+    android:versionCode="22"
+    android:versionName="2.6" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="17" />
+    <!-- Used for Facebook updates -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- Required permission to check licensing. -->
+    <application
+        android:name="HIITTreadmillAssistantApplicationLite"
+        android:allowBackup="true"
+        android:description="@string/description"
+        android:enabled="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:persistent="true" >
+>
+        <activity
+            android:name=".views.WorkoutSettingsLite"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter
+                android:icon="@drawable/icon"
+                android:label="@string/start_training" >
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.svi.hiit.views.HIITSession"
+            android:alwaysRetainTaskState="true"
+            android:clearTaskOnLaunch="false"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/workout_session_title"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.START_TTS_ENGINE" />
+
+                <category android:name="android.intent.category.tts_engine.ESPEAK" />
+                <category android:name="android.intent.category.tts_lang.af" />
+                <category android:name="android.intent.category.tts_lang.bs" />
+                <category android:name="android.intent.category.tts_lang.zh" />
+                <category android:name="android.intent.category.tts_lang.zh.HK" />
+                <category android:name="android.intent.category.tts_lang.hr" />
+                <category android:name="android.intent.category.tts_lang.cz" />
+                <category android:name="android.intent.category.tts_lang.nl" />
+                <category android:name="android.intent.category.tts_lang.en" />
+                <category android:name="android.intent.category.tts_lang.en.US" />
+                <category android:name="android.intent.category.tts_lang.en.GB" />
+                <category android:name="android.intent.category.tts_lang.eo" />
+                <category android:name="android.intent.category.tts_lang.fi" />
+                <category android:name="android.intent.category.tts_lang.fr" />
+                <category android:name="android.intent.category.tts_lang.de" />
+                <category android:name="android.intent.category.tts_lang.el" />
+                <category android:name="android.intent.category.tts_lang.hi" />
+                <category android:name="android.intent.category.tts_lang.hu" />
+                <category android:name="android.intent.category.tts_lang.is" />
+                <category android:name="android.intent.category.tts_lang.id" />
+                <category android:name="android.intent.category.tts_lang.it" />
+                <category android:name="android.intent.category.tts_lang.ku" />
+                <category android:name="android.intent.category.tts_lang.la" />
+                <category android:name="android.intent.category.tts_lang.mk" />
+                <category android:name="android.intent.category.tts_lang.no" />
+                <category android:name="android.intent.category.tts_lang.pl" />
+                <category android:name="android.intent.category.tts_lang.pt" />
+                <category android:name="android.intent.category.tts_lang.ro" />
+                <category android:name="android.intent.category.tts_lang.ru" />
+                <category android:name="android.intent.category.tts_lang.sr" />
+                <category android:name="android.intent.category.tts_lang.sk" />
+                <category android:name="android.intent.category.tts_lang.es" />
+                <category android:name="android.intent.category.tts_lang.es.MX" />
+                <category android:name="android.intent.category.tts_lang.sw" />
+                <category android:name="android.intent.category.tts_lang.sv" />
+                <category android:name="android.intent.category.tts_lang.ta" />
+                <category android:name="android.intent.category.tts_lang.tr" />
+                <category android:name="android.intent.category.tts_lang.vi" />
+                <category android:name="android.intent.category.tts_lang.cy" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

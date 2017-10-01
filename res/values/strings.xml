@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- Unlicensed dialog messages -->
+	<string name="lite_dialog_title">Version</string>
+	<string name="lite_dialog_body">This is the lite version of the full application.
+		The full application offers many more workouts and features. Please
+		purchase the full version from the Android Market.</string>
+	<string name="no_thanks_button">No Thanks</string>
+
+	<string name="description">The HIIT Treadmill Assistant Lite has predefined
+		HIIT
+		treadmill workouts. Just select your sprint speed, your interval
+		time
+		and the intensity of your workout. The software will tell you what
+		to
+		do. You can even play your favorite music as you workout!</string>
+
+	<string name="dislaimer">When you use the HIIT Treadmill Assistant Lite
+		software,
+		you agree to indemnify and hold harmless Audible Android
+		Products for
+		any loss, liability, claim, damage, and expenses
+		(including reasonable
+		attorneys\' fees) arising from or in connection
+		with your use of the
+		HIIT Treadmill Assitant fitness software
+		application.\nDo you Agree to
+		these terms?</string>
+	<string name="must_accept_disclaimer">You must accept the disclaimer agreement before
+		using HIIT Treadmill Assistant Lite</string>
+	<string name="app_name">HIIT Treadmill Assistant Lite</string>
+
+	<!-- Will be part of the menu display -->
+	<string name="introduction">The HIIT Assistant Lite will setup a treadmill work
+		out
+		for you using the sprint speed you select and the intesity (number
+		of
+		intervals and rest length) you choose.</string>
+	<string name="start_training">Start</string>
+
+</resources>
